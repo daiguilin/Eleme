@@ -1,0 +1,35 @@
+css sticky footer的运用
+当两个line-block图片和一段文字同行时，可以对图片或文字设置vertical-align:top让其顶端对齐
+
+设置一个元素模糊 filter:blur(10px)
+
+每次更改配置都要重启服务器，包括json数据
+
+flex布局，参考阮一峰的教程
+
+vue中不写样式，用于获取的的class命名方式food-list-hook
+
+在vue中需要对原声dom进行获取时，用v-el指令获取，每次对遍历的DOM操作，最好在$nextTick回调函数中操作，保证元素被渲染之后被操作
+
+在vue中不存在的属性不能直接对其赋值，需要通过Vue.set(this.food,'count',1);方式进行赋值
+
+vue中获取子组件的dom用v-ref指令
+
+getBoundingClientRect()
+
+对于组件中的methods中的方法，带下划线命名的函数名一般都是代表该组件私有函数，不带的可以被其他组件调用
+
+position:relative
+width:100%
+height:0
+padding-top:100%
+
+
+使用localstorage需要定义命名空间的，node就没有localstore，只有在浏览器端才可以别检测到localstorage
+在未知宽度的情况下此代码可以让这个元素的高等于它的宽
+
+vue中通过数据改变dom是异步的，有时候需要等DOM加载完做的事情，需要放到this.$nextTick(() => {})执行
+
+正则表达式的用法：
+（y+） 表示以y开头匹配多个y
+ RegExp.$1
